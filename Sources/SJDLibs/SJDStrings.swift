@@ -8,7 +8,7 @@
 import Foundation
 
 extension String {
-	init(_ val:Double, decimals: Int = 2) {
+	public init(_ val:Double, decimals: Int = 2) {
 		self.init(format: "%.\(decimals)f", val)
 	}
 }
